@@ -1,0 +1,111 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(0, 0%, 80%);
+}
+
+h1{
+    font-size: 4rem;
+    font-family: "Arial", sans-serif;
+    color: hsla(0, 0%, 25%);
+}
+
+#display {
+    font-size: 5rem;
+    font-family: monospace;
+    font-weight: bold;
+    color: hsl(0, 0%, 30%);
+    text-shadow: 2px 2px 2px rgba(0, 0%, 0%, 0.75);
+    margin-bottom: 5px;
+}
+
+#containerTime {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+/* Container dos inputs */
+#containerTime {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 5px;
+}
+
+/* Label (texto + input) */
+#containerTime label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Inputs */
+#containerTime input {
+    width: 80px;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 1.2rem;
+    text-align: center;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+/* Efeito ao clicar */
+#containerTime input:focus {
+    border-color: #4CAF50;
+    box-shadow: 0 0 8px rgba(76, 175, 80, 0.4);
+}
+
+/* Efeito ao passar o mouse */
+#containerTime input:hover {
+    border-color: #999;
+}
+
+#containerBtn {
+    margin-top: 20px;
+}
+
+#containerBtn button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin: 5px;
+    min-width: 125px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.5s ease;
+}
+
+#startBtn {
+    background-color: hsl(115, 100%, 40%);
+}
+
+#startBtn:hover {
+    background-color: hsl(115, 100%, 30%);
+}
+
+#stopBtn {
+    background-color: hsl(10, 90%, 50%);
+}
+
+#stopBtn:hover {
+    background-color: hsl(10, 90%, 40%);
+}
+
+#resetBtn {
+    background-color: hsl(205, 90%, 60%);
+}
+
+#resetBtn:hover {
+    background-color: hsl(205, 90%, 50%);
+}
