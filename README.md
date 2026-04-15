@@ -59,6 +59,6 @@ git clone https://github.com/seu-usuario/seu-repositorio.git
 
 ## &#x20;
 
-## **👨‍💻 **Autor
+## 👨‍💻Autor
 
 Desenvolvido por **Christian Queiroz**
